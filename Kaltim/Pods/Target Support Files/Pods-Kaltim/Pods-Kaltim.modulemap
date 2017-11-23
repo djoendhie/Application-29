@@ -1,0 +1,6 @@
+framework module Pods_Kaltim {
+  umbrella header "Pods-Kaltim-umbrella.h"
+
+  export *
+  module * { export * }
+}

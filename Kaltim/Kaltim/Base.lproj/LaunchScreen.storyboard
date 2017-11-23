@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Baskerville.ttc">
+            <string>Baskerville-BoldItalic</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="Wkq-8Z-2xR">
+                                <rect key="frame" x="0.0" y="96" width="375" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Wkq-8Z-2xR" secondAttribute="height" multiplier="75:44" id="Kci-k7-p4X"/>
+                                    <constraint firstAttribute="height" constant="220" id="VF7-Xh-oSM"/>
+                                    <constraint firstAttribute="width" constant="375" id="c5b-zB-dbc"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="yOt-ge-VB7">
+                                <rect key="frame" x="127" y="494" width="121" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="B7h-iy-IMj"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resep Masakan Kalimantan Timur" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HlH-CV-jmG">
+                                <rect key="frame" x="5" y="317" width="365" height="25"/>
+                                <fontDescription key="fontDescription" name="Baskerville-BoldItalic" family="Baskerville" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99169057607650757" green="0.77991443872451782" blue="0.46894288063049316" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yOt-ge-VB7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="4VU-Yf-U8e"/>
+                            <constraint firstItem="yOt-ge-VB7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="CRv-17-XTu"/>
+                            <constraint firstItem="Wkq-8Z-2xR" firstAttribute="width" secondItem="Wkq-8Z-2xR" secondAttribute="height" multiplier="75:44" id="Flg-mQ-Su9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yOt-ge-VB7" secondAttribute="bottom" constant="97" id="Iqp-2g-vF6"/>
+                            <constraint firstItem="HlH-CV-jmG" firstAttribute="centerX" secondItem="Wkq-8Z-2xR" secondAttribute="centerX" id="YGc-HJ-J8b"/>
+                            <constraint firstItem="HlH-CV-jmG" firstAttribute="top" secondItem="Wkq-8Z-2xR" secondAttribute="bottom" constant="1" id="psH-A8-iuM"/>
+                            <constraint firstItem="Wkq-8Z-2xR" firstAttribute="width" secondItem="Wkq-8Z-2xR" secondAttribute="height" multiplier="75:44" id="rKy-2Z-CZQ"/>
+                            <constraint firstItem="HlH-CV-jmG" firstAttribute="centerX" secondItem="yOt-ge-VB7" secondAttribute="centerX" id="sMb-PD-RTO"/>
+                            <constraint firstItem="Wkq-8Z-2xR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="vkH-p3-131"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="images" width="341" height="148"/>
+        <image name="images-1" width="225" height="225"/>
+    </resources>
+</document>
