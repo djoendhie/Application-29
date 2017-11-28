@@ -31,10 +31,10 @@
                                     <constraint firstAttribute="width" constant="375" id="c5b-zB-dbc"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="yOt-ge-VB7">
-                                <rect key="frame" x="127" y="494" width="121" height="76"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="yOt-ge-VB7">
+                                <rect key="frame" x="127" y="471" width="121" height="99"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="B7h-iy-IMj"/>
+                                    <constraint firstAttribute="height" constant="99" id="vfx-cy-kc0"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resep Masakan Kalimantan Timur" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HlH-CV-jmG">
@@ -46,14 +46,14 @@
                         </subviews>
                         <color key="backgroundColor" red="0.99169057607650757" green="0.77991443872451782" blue="0.46894288063049316" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="yOt-ge-VB7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="4VU-Yf-U8e"/>
-                            <constraint firstItem="yOt-ge-VB7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="CRv-17-XTu"/>
+                            <constraint firstItem="yOt-ge-VB7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="3Sf-ok-SX0"/>
+                            <constraint firstItem="yOt-ge-VB7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="4w3-oR-5Ph"/>
                             <constraint firstItem="Wkq-8Z-2xR" firstAttribute="width" secondItem="Wkq-8Z-2xR" secondAttribute="height" multiplier="75:44" id="Flg-mQ-Su9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yOt-ge-VB7" secondAttribute="bottom" constant="97" id="Iqp-2g-vF6"/>
+                            <constraint firstItem="yOt-ge-VB7" firstAttribute="centerX" secondItem="HlH-CV-jmG" secondAttribute="centerX" id="Nat-40-LAF"/>
                             <constraint firstItem="HlH-CV-jmG" firstAttribute="centerX" secondItem="Wkq-8Z-2xR" secondAttribute="centerX" id="YGc-HJ-J8b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yOt-ge-VB7" secondAttribute="bottom" constant="97" id="mEY-on-HVn"/>
                             <constraint firstItem="HlH-CV-jmG" firstAttribute="top" secondItem="Wkq-8Z-2xR" secondAttribute="bottom" constant="1" id="psH-A8-iuM"/>
                             <constraint firstItem="Wkq-8Z-2xR" firstAttribute="width" secondItem="Wkq-8Z-2xR" secondAttribute="height" multiplier="75:44" id="rKy-2Z-CZQ"/>
-                            <constraint firstItem="HlH-CV-jmG" firstAttribute="centerX" secondItem="yOt-ge-VB7" secondAttribute="centerX" id="sMb-PD-RTO"/>
                             <constraint firstItem="Wkq-8Z-2xR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="vkH-p3-131"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -61,11 +61,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
     <resources>
+        <image name="1" width="225" height="225"/>
         <image name="images" width="341" height="148"/>
-        <image name="images-1" width="225" height="225"/>
     </resources>
 </document>
